@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "bark-buddy",
+    "slug": "bark-buddy",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}

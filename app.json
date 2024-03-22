@@ -6,10 +6,33 @@
     "assetBundlePatterns": [
       "**/*"
     ],
+    "platforms": [
+      "ios",
+      "android"
+    ],
     "web": {
       "build": {
         "output": "build"
       }
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app requires access to the camera to take photos."
+      },
+      "minimumVersion": "13.0",
+      "bundleIdentifier": "com.auth0samples"
+    },
+    "plugins": [
+      [
+        "react-native-auth0",
+        {
+          "domain": "dev-f1rrzjdyeyy62rzh.us.auth0.com"
+        }
+      ]
+    ],
+    "android": {
+      "package": "com.auth0samples"
     }
   }
 }

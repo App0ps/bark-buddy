@@ -1,4 +1,4 @@
-rootProject.name = 'barkbuddy'
+rootProject.name = 'bark-buddy'
 
 dependencyResolutionManagement {
   versionCatalogs {

@@ -85,11 +85,14 @@ android {
 
     namespace "com.barkbuddy"
     defaultConfig {
-        applicationId "com.barkbuddy"
+// @generated begin react-native-auth0-manifest-placeholder - expo prebuild (DO NOT MODIFY) sync-0a5d7d9d0cbfc02cd0844a892b850c97e555e186
+manifestPlaceholders = [auth0Domain: "dev-f1rrzjdyeyy62rzh.us.auth0.com", auth0Scheme: "com.auth0samples.auth0"]
+// @generated end react-native-auth0-manifest-placeholder
+        applicationId 'com.auth0samples'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
-        versionName "1.0"
+        versionName "1.0.0"
 
         buildConfigField("boolean", "REACT_NATIVE_UNSTABLE_USE_RUNTIME_SCHEDULER_ALWAYS", (findProperty("reactNative.unstable_useRuntimeSchedulerAlways") ?: true).toString())
     }

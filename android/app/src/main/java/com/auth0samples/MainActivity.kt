@@ -1,4 +1,4 @@
-package com.barkbuddy
+package com.auth0samples
 
 import android.os.Build
 import android.os.Bundle
